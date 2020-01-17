@@ -1,0 +1,9 @@
+Package: libskittycolor
+Name: libskittycolor
+Version: 1.0
+Architecture: iphoneos-arm
+Description: A simple color picker implementation.
+Maintainer: Skitty
+Author: Skitty
+Section: System
+Tag: role::developer
