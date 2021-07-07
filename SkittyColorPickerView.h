@@ -1,5 +1,6 @@
 // SkittyColorPickerView.h
 
+#import <UIKit/UIKit.h>
 #import "SkittyColorIndicatorView.h"
 #import "libskittycolor.h"
 

@@ -1,5 +1,6 @@
 // SkittyColorPreviewView.h
 
+#import <UIKit/UIKit.h>
 #import "libskittycolor.h"
 
 @interface SkittyColorPreviewView : UIView
