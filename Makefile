@@ -1,5 +1,5 @@
 ARCHS = arm64 arm64e
-TARGET = iphone:clang::11.0
+TARGET = iphone:clang:latest:12.2
 
 include $(THEOS)/makefiles/common.mk
 
@@ -7,7 +7,7 @@ LIBRARY_NAME = libskittycolor
 
 libskittycolor_FILES = $(wildcard *.m)
 libskittycolor_PRIVATE_FRAMEWORKS = Preferences
-libskittycolor_CFLAGS = -fobjc-arc
+libskittycolor_CFLAGS = -fobjc-arc -Wno-unguarded-availability-new
 
 include $(THEOS_MAKE_PATH)/library.mk
 
